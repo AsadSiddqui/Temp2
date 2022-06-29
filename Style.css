@@ -1,0 +1,253 @@
+body {
+  width: 100%;
+  margin: 0 auto;
+}
+*{
+  box-sizing: border-box;
+}
+.topmain {
+  background-color: #f44336;
+  width: 100%;
+}
+.one {
+  background-color: #f44336;
+  width: 100vw;
+  height: 54.5px;
+  position: fixed;
+  font-family: Montserrat, sans-serif;
+  height: 3.64%;
+  box-shadow: 0 2px 5px 0 rgb(0 0 0 / 16%), 0 2px 10px 0 rgb(0 0 0 / 12%);
+}
+
+a {
+  text-decoration: none;
+  padding: 18px 24px;
+  text-align: left;
+  font-size: 18px;
+  line-height: 2.8;
+}
+
+.hf {
+  text-decoration: none;
+  padding: 50px;
+  color: aliceblue;
+  padding: 18px 24px;
+  text-align: left;
+  font-size: 18px;
+  line-height: 2.8;
+}
+.home {
+  color: black;
+  background-color: white;
+  height: 20px;
+}
+
+.start {
+  background-color: #f44336;
+  padding: 160px 16px;
+  justify-content: center;
+  text-align: center;
+  color: white;
+}
+.font {
+  font-family: Montserrat, sans-serif;
+  font-size: 409%;
+  font-weight: 500;
+}
+.font1 {
+  font-family: Montserrat, sans-serif;
+  font-size: 129%;
+}
+.button {
+  color: white;
+  background-color: black;
+  padding: 15px 30px;
+  font-size: 18px;
+  font-family: Montserrat, sans-serif;
+  cursor: pointer;
+  border: none;
+}
+button:hover {
+  background-color: #ccc;
+  color: black;
+}
+
+.pp3 {
+  font-family: "Lato", sans-serif;
+  font-size: 36px;
+  font-weight: 400;
+  width: 60%;
+  border: 0px;
+  padding: 0.5%;
+}
+h5 {
+  font-family: "Lato", sans-serif;
+  font-weight: 400;
+  padding-top: 32px;
+  padding-bottom: 32px;
+  font-size: 18px;
+}
+.para {
+  color: #757575;
+  font-family: Lato, sans-serif;
+  font-size: 15px;
+}
+.grandparents {
+  /* width: 100%; */
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  padding: 64px 0px 24px 24px;
+}
+.anchor {
+width:50%;
+font-size:200px !important;
+  color: #f44336;
+}
+.parents {
+  display: flex;
+  height: auto;
+  width: 100%;
+  max-width: 1000px;
+}
+.child1 {
+  width: 66%;
+}
+.child2 {
+  width: 34%;
+}
+.grandparents2 {
+  /* width: 100%; */
+  padding: 64px 0px 24px 24px;
+  background-color: #f1f1f1;
+}
+
+.para2 {
+  color: #757575;
+  font-family: Lato, sans-serif;
+  font-size: 15px;
+  max-width: none;
+}
+.pp4 {
+  font-family: "Lato", sans-serif;
+  font-size: 36px;
+  font-weight: 400;
+  width: 60%;
+  border: 0px;
+  padding: 0.5%;
+}
+.child3 {
+  width: 35%;
+  max-width: 670px;
+}
+.child4 {
+  width: 285px;
+}
+.mug {
+  width: 50%;
+  font-size: 200px;
+  color: #f44336;
+}
+.parents3 {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  height: auto;
+}
+
+.child5 {
+  color: white;
+  background-color: black;
+  opacity: 0.6;
+  padding-top: 64px;
+  padding-bottom: 64px;
+  text-align: center;
+}
+.lead {
+  font-family: Montserrat, sans-serif;
+  font-size: 24px;
+  font-weight: 400;
+}
+.lastdiv {
+  line-height: 80px;
+}
+.pl {
+  line-height: 80px;
+  text-align: "center";
+  text-decoration: "underline";
+  font-size: 16px;
+  color: inherit;
+}
+.lastdiv {
+  font-size: 24px;
+  font-family: "Lato", sans-serif;
+  font-weight: 400;
+
+  color: #757575;
+}
+.gf:hover {
+  background-color: #ccc;
+  color: gray;
+}
+.u {
+  text-decoration: underline;
+  color: gray;
+}
+
+@media  screen and  ( max-width: 600px ) {
+  .hf{
+    display: none;
+  }
+
+  .parents{
+flex-direction: column;
+width: 100%;
+margin: auto;
+padding-top: 64px;
+padding-bottom: 64px;
+padding: 0px;
+  }}
+  .child1{
+    width: 100%;
+    padding-top: 64px;
+    padding-bottom: 64px;
+    
+  }
+  .grandparents{
+    padding: 0px;
+    padding: 64px 15px;
+  }
+
+  .fa{
+    width:100%;
+    text-align: center;
+    /* margin-left:50px;    */
+        padding-top: 64px;
+    padding-bottom: 64px;
+  }
+  .grandparents2{
+    padding: 16px;
+    padding-top: 64px;
+    padding-bottom: 64px;
+
+  }
+
+  @media  screen and  ( max-width: 600px ) {
+    .parents3{
+  flex-direction: column;
+    }
+    .child4{
+      width: auto;
+    }
+    .child3  {
+width: auto;
+  }
+  .one{
+    width: 100vw;
+  }
+  .mug{
+    padding-top: 64px;
+    padding-bottom: 64px;
+  }
+  .anchor{margin-left: 100%;}
+}
